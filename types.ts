@@ -1,6 +1,10 @@
-
-export interface Dossier {
+export interface DossierCardProps {
   title: string;
   description: string;
-  url: string;
+  href: string;
+}
+
+export interface StrategicAxis {
+  title: string;
+  description: string;
 }
